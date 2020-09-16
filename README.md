@@ -25,7 +25,7 @@ curl -sL install-node.now.sh/lts | bash
 3. <LEADER>w and <LEADER>q serves :w and :q.
 4. <LEADER>f serves fuzzy finds file name in this workspace, <LEADER>fl serves fuzzy finds lines in this file, <LEADER>f<Ctrl>l finds lines in all files in this workspace
 5. gd is go-to-definition.
-6. # serves as *
+6. \# serves as \*
 7. In normal modes, e maps to w.
 8. arrow-key will adujsts window size
 9. <Ctrl> hjkl in Normal mode will switch panes, in Insert mode will serve as arrow-key
