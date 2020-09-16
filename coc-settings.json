@@ -1,0 +1,149 @@
+{
+  "coc.preferences.snippetStatusText": "Ⓢ ",
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "suggest.triggerAfterInsertEnter": true,
+  "suggest.detailMaxLength": 60,
+  "suggest.enablePreview": true,
+  "suggest.detailField": "preview",
+  "suggest.snippetIndicator": "",
+  "suggest.triggerCompletionWait": 100,
+  "suggest.echodocSupport": true,
+  "suggest.completionItemKindLabels": {
+    "class": "\uf0e8",
+    "color": "\ue22b",
+    "constant": "\uf8fe",
+    "default": "\uf29c",
+    "enum": "\uf435",
+    "enumMember": "\uf02b",
+    "event": "\ufacd",
+    "field": "\uf93d",
+    "file": "\uf723",
+    "folder": "\uf115",
+    "function": "\u0192",
+    "interface": "\uf417",
+    "keyword": "\uf1de",
+    "method": "\uf6a6",
+    "module": "\uf40d",
+    "operator": "\uf915",
+    "property": "\ue624",
+    "reference": "\ufa46",
+    "snippet": "\ue60b",
+    "struct": "\ufb44",
+    "text": "\ue612",
+    "typeParameter": "\uf728",
+    "unit": "\uf475",
+    "value": "\uf89f",
+    "variable": "\ue71b"
+  },
+  "diagnostic.signOffset": 1,
+  "diagnostic.errorSign": "\uf2d3",
+  "diagnostic.warningSign": "\uf071",
+  "diagnostic.infoSign": "\uf129",
+  "diagnostic.hintSign": "\uf864",
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextPrefix": " ❯❯❯ ",
+  "diagnostic.enableMessage": "never",
+  "codeLens.enable": true,
+  "explorer.width": 38,
+  "explorer.quitOnOpen": true,
+  "explorer.sources": [
+    {
+      "name": "buffer",
+      "expand": false
+    },
+    {
+      "name": "file",
+      "expand": true
+    }
+  ],
+  "explorer.file.column.indent.indentLine": true,
+  "explorer.file.showHiddenFiles": true,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.file.column.git.showIgnored": true,
+  "explorer.keyMappingMode": "none",
+  "explorer.buffer.showHiddenBuffers": false,
+  "explorer.keyMappings": {
+    "o": "expand",
+    "O": "collapse",
+    "<cr>": "open",
+    "h": [
+      "collapse",
+      "gotoParent"
+    ],
+    "l": "open",
+    "v": "open:vsplit",
+    "t": "open:tab",
+    "yp": "copyFilepath",
+    "yn": "copyFilename",
+    "yy": "copyFile",
+    "dd": "cutFile",
+    "pp": "pasteFile",
+    "i": "addFile",
+    "I": "addDirectory",
+    "r": "rename",
+    ".": "toggleHidden",
+    "R": "refresh",
+    "?": "help",
+    "q": "quit"
+  },
+  "coc.preferences.formatOnSaveFiletypes": [
+    "yaml",
+    "html",
+    "css",
+    "json",
+    "python"
+  ],
+  "yaml.format.enable": true,
+  "html.format.enable": true,
+  "json.format.enable": true,
+  "python.autoComplete.addBrackets": true,
+  "python.jediEnabled": false,
+  "python.formatting.provider": "yapf",
+  "python.formatting.yapfArgs": [
+    "--style",
+    "{SPACES_AROUND_POWER_OPERATOR: True, SPACES_BEFORE_COMMENT: 1}"
+  ],
+  "languageserver": {
+    "bash": {
+      "command": "bash-language-server",
+      "args": [
+        "start"
+      ],
+      "filetypes": [
+        "sh"
+      ],
+      "ignoredRootPaths": []
+    },
+    "ccls": {
+      "command": "ccls",
+      "filetypes": [
+        "c",
+        "cpp",
+        "cuda",
+        "objc",
+        "objcpp"
+      ],
+      "rootPatterns": [
+        ".ccls",
+        ".ccls-root",
+        "compile_commands.json",
+        ".git/",
+        ".hg/"
+      ],
+      "initializationOptions": {
+        "cache": {
+          "directory": "/tmp/ccls"
+        }
+      }
+    }
+  },
+  "yank.highlight.duration": 300,
+  "yank.enableCompletion": false,
+  "list.previewHighlightGroup": "Statement",
+  "snippets.ultisnips.directories": [
+    "$HOME/.config/nvim/Ultisnips/",
+    "$HOME/.config/nvim/plugged/vim-snippets/UltiSnips/"
+  ],
+  "signature.target": "float"
+}
